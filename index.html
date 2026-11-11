@@ -15,6 +15,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="Pour les employeurs dès 11 salariés : mise à jour annuelle du DUERP, actions de prévention ou PAPRIPACT, historique conservé et export PDF.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -73,38 +77,68 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">DUERP à jour</a></div>
-  <nav class="top"><a href="#quoi" data-ev="click_nav_quoi">Ce que vous obtenez</a><a href="price.html" data-ev="click_nav_prix">Prix</a><a href="#exemple" data-ev="click_nav_exemple">Exemple</a><a href="#start" data-ev="click_nav_start">Commencer</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">DUERP à jour</a>
+  <nav><a href="#quoi" data-ev="click_nav_quoi">Ce que vous obtenez</a><a href="price.html" data-ev="click_nav_prix">Prix</a><a href="#exemple" data-ev="click_nav_exemple">Exemple</a><a href="#start" data-ev="click_nav_start">Commencer</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>Votre DUERP mis à jour chaque année — risques, actions de prévention et PDF prêt</h1>
-    <p class="sub">Pour les entreprises à partir de 11 salariés : le document unique d'évaluation des risques professionnels se met à jour par unité de travail, la liste des actions de prévention ou le PAPRIPACT se génère à partir des risques, chaque version est conservée et le PDF est prêt à montrer.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">J'en ai besoin</a>
-    <p class="cta-note">Accès anticipé · Aucun paiement n'est encore accepté sur cette page</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> Pour les entreprises à partir de 11 salariés</p>
+      <h1 class="rise" style="--i:1" data-len="long">Votre DUERP mis à jour chaque année&nbsp;<span class="soft">— risques, actions de prévention et PDF prêt</span></h1>
+      <p class="rise" style="--i:2">Pour les entreprises à partir de 11 salariés : le document unique d'évaluation des risques professionnels se met à jour par unité de travail, la liste des actions de prévention ou le PAPRIPACT se génère à partir des risques, chaque version est conservée et le PDF est prêt à montrer.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">J'en ai besoin</a>
+      <p class="meta rise" style="--i:4">Accès anticipé · Aucun paiement n'est encore accepté sur cette page</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="130" y="165" font-size="40" fill="#0a1524" font-weight="600">DUERP</text><line x1="120" y1="210" x2="1080" y2="210" stroke="#dde2ea" stroke-width="3" /><rect x="130" y="260" width="44" height="44" rx="8" fill="#dfe8f7" /><text x="200" y="292" font-size="32" fill="#0a1524">risques</text><rect x="130" y="360" width="44" height="44" rx="8" fill="#dfe8f7" /><text x="200" y="392" font-size="32" fill="#0a1524">prévention</text><rect x="130" y="460" width="44" height="44" rx="8" fill="#dfe8f7" /><text x="200" y="492" font-size="32" fill="#0a1524">PDF</text><rect x="700" y="260" width="360" height="400" rx="20" fill="#dfe8f7" /><text x="730" y="320" font-size="32" fill="#0a1524" font-weight="600">salariés</text><rect x="740" y="500" width="50" height="100" rx="8" fill="#ffffff" /><rect x="815" y="440" width="50" height="160" rx="8" fill="#b9c3d2" /><rect x="890" y="520" width="50" height="80" rx="8" fill="#12397a" /><rect x="965" y="460" width="50" height="140" rx="8" fill="#ffffff" /></svg></figure>
+    <dl class="facts">
+      <div><dt>Pour</dt><dd>Les entreprises à partir</dd></div>
+      <div><dt>Document</dt><dd>Mis à jour chaque année</dd></div>
+      <div><dt>Comment</dt><dd>Par unité de travail</dd></div>
+      <div><dt>Accès</dt><dd>Accès anticipé</dd></div>
+    </dl>
+  </section>
 
   <section id="quoi" data-view="features_view">
-    <h2>Ce que vous obtenez</h2>
-    <div class="grid">
-      <div class="card"><b>Unités de travail</b><span>Les risques évalués poste par poste ou atelier par atelier.</span><br><a class="btn" href="price.html" data-ev="feature_unites">J'en ai besoin</a></div>
-      <div class="card"><b>Actions de prévention</b><span>La liste des actions ou le PAPRIPACT généré à partir des risques identifiés.</span><br><a class="btn" href="price.html" data-ev="feature_actions">J'en ai besoin</a></div>
-      <div class="card"><b>Rappel annuel</b><span>Un rappel de la mise à jour annuelle et après chaque changement important.</span><br><a class="btn" href="price.html" data-ev="feature_rappel">J'en ai besoin</a></div>
-      <div class="card"><b>Versions et PDF</b><span>Chaque version conservée avec sa date, exportable en PDF.</span><br><a class="btn" href="price.html" data-ev="feature_versions">J'en ai besoin</a></div>
+    <div class="stack"><h2>Ce que vous obtenez</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="145" font-size="36" fill="#0a1524" font-weight="600">Unités de travail</text><text x="120" y="490" font-size="30" fill="#566174">poste par poste</text><rect x="130" y="200" width="44" height="44" rx="8" fill="#dfe8f7" /><rect x="200" y="210" width="300" height="22" rx="8" fill="#dde2ea" /><polyline points="140,224 150,234 164,214" fill="none" stroke="#12397a" stroke-width="4" /><rect x="130" y="280" width="44" height="44" rx="8" fill="#dfe8f7" /><rect x="200" y="290" width="240" height="22" rx="8" fill="#dde2ea" /><polyline points="140,304 150,314 164,294" fill="none" stroke="#12397a" stroke-width="4" /><rect x="130" y="360" width="44" height="44" rx="8" fill="#dfe8f7" /><rect x="200" y="370" width="340" height="22" rx="8" fill="#dde2ea" /></svg></div>
+        <h3>Unités de travail</h3><p>Les risques évalués poste par poste ou atelier par atelier.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_unites">J'en ai besoin</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="145" font-size="36" fill="#0a1524" font-weight="600">Actions de prévention</text><text x="120" y="490" font-size="30" fill="#566174">des risques</text><rect x="140" y="190" width="420" height="270" rx="16" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="170" y="220" width="320" height="16" rx="8" fill="#dde2ea" /><rect x="170" y="268" width="260" height="16" rx="8" fill="#dde2ea" /><rect x="170" y="316" width="300" height="16" rx="8" fill="#dde2ea" /><rect x="170" y="364" width="180" height="16" rx="8" fill="#dde2ea" /><circle cx="500" cy="400" r="36" fill="#dfe8f7" /><polyline points="484,400 496,414 520,382" fill="none" stroke="#12397a" stroke-width="5" /></svg></div>
+        <h3>Actions de prévention</h3><p>La liste des actions ou le PAPRIPACT généré à partir des risques identifiés.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_actions">J'en ai besoin</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="145" font-size="36" fill="#0a1524" font-weight="600">Rappel annuel</text><text x="120" y="490" font-size="30" fill="#566174">mise à jour</text><rect x="150" y="200" width="100" height="60" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="280" y="200" width="100" height="60" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="410" y="200" width="100" height="60" rx="10" fill="#12397a" stroke="#dde2ea" stroke-width="3" /><rect x="540" y="200" width="100" height="60" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="150" y="280" width="100" height="60" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="280" y="280" width="100" height="60" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="410" y="280" width="100" height="60" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="540" y="280" width="100" height="60" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="150" y="360" width="100" height="60" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="280" y="360" width="100" height="60" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="410" y="360" width="100" height="60" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="540" y="360" width="100" height="60" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /></svg></div>
+        <h3>Rappel annuel</h3><p>Un rappel de la mise à jour annuelle et après chaque changement important.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_rappel">J'en ai besoin</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="145" font-size="36" fill="#0a1524" font-weight="600">Versions et PDF</text><text x="120" y="490" font-size="30" fill="#566174">en PDF</text><line x1="140" y1="450" x2="680" y2="450" stroke="#dde2ea" stroke-width="3" /><rect x="170" y="350" width="56" height="100" rx="8" fill="#dfe8f7" /><rect x="290" y="320" width="56" height="130" rx="8" fill="#b9c3d2" /><rect x="410" y="380" width="56" height="70" rx="8" fill="#12397a" /><rect x="530" y="270" width="56" height="180" rx="8" fill="#dde2ea" /></svg></div>
+        <h3>Versions et PDF</h3><p>Chaque version conservée avec sa date, exportable en PDF.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_versions">J'en ai besoin</a>
+      </article>
     </div>
   </section>
 
-  <section id="exemple" data-view="example_view">
-    <h2>Exemple (données fictives)</h2>
-    <p class="fine">Entreprise de logistique de 34 salariés, deux entrepôts. En janvier, le rappel annuel arrive : l'encadrant met à jour les risques de trois unités de travail, ajoute un nouveau chariot élévateur, la liste des actions de prévention se met à jour et le DUERP 2027 est exporté en PDF, la version 2026 restant archivée.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">Choisir une formule</a>
+  <section id="exemple" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Exemple</h2>
+      <p>Entreprise de logistique de 34 salariés, deux entrepôts. En janvier, le rappel annuel arrive : l'encadrant met à jour les risques de trois unités de travail, ajoute un nouveau chariot élévateur, la liste des actions de prévention se met à jour et le DUERP 2027 est exporté en PDF, la version 2026 restant archivée.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">Choisir une formule</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="240" y1="160" x2="960" y2="160" stroke="#dde2ea" stroke-width="6" /><circle cx="240" cy="160" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="240" y="230" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">janvier</text><circle cx="600" cy="160" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="600" y="230" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">entrepôts</text><circle cx="960" cy="160" r="22" fill="#12397a" stroke="#12397a" stroke-width="6" /><text x="960" y="230" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">PDF</text><rect x="140" y="300" width="920" height="400" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="180" y="380" font-size="36" fill="#0a1524" font-weight="600">mise à jour</text><rect x="180" y="430" width="70" height="70" rx="12" fill="#dfe8f7" /><rect x="280" y="430" width="70" height="70" rx="12" fill="#dfe8f7" /><rect x="380" y="430" width="70" height="70" rx="12" fill="#12397a" /><rect x="480" y="430" width="70" height="70" rx="12" fill="#dfe8f7" /><text x="180" y="620" font-size="32" fill="#566174">version 2026</text></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>Comment ça marche</h2>
-    <p>Tout employeur doit évaluer les risques professionnels de ses salariés et les transcrire dans un document unique d'évaluation des risques professionnels, le DUERP. Dans les entreprises d'au moins 11 salariés, ce document doit être mis à jour au moins une fois par an, ainsi qu'à chaque changement important des conditions de travail ou lorsqu'une information nouvelle sur un risque apparaît.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>Comment ça marche</h2></div>
+    <div class="stack">
+      <p>Tout employeur doit évaluer les risques professionnels de ses salariés et les transcrire dans un document unique d'évaluation des risques professionnels, le DUERP. Dans les entreprises d'au moins 11 salariés, ce document doit être mis à jour au moins une fois par an, ainsi qu'à chaque changement important des conditions de travail ou lorsqu'une information nouvelle sur un risque apparaît.</p>
     <p>Le DUERP n'est pas qu'un tableau des risques. Il débouche sur des actions : dans les entreprises de 50 salariés et plus, un programme annuel de prévention des risques professionnels et d'amélioration des conditions de travail, le PAPRIPACT ; en dessous de 50 salariés, une liste des actions de prévention et de protection. Ces documents sont mis à jour en même temps que le DUERP, si nécessaire.</p>
     <p>Les versions successives du document unique doivent être conservées pendant au moins quarante ans. Le dépôt dématérialisé sur un portail national, prévu à l'origine pour 2023 puis 2024, n'a pas encore été mis en place : en attendant, l'employeur garde lui-même ses versions, sur papier ou sous forme numérique.</p>
     <p>Le service commence par la description de l'entreprise en unités de travail : un atelier, un entrepôt, un poste administratif, une équipe sur chantier. Pour chaque unité, vous évaluez les risques — chutes, manutention, produits chimiques, risques psychosociaux, travail sur écran — avec leur gravité et leur fréquence, et vous notez les mesures déjà en place.</p>
@@ -113,31 +147,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p>Le service fonctionne dans le navigateur, sans installation. Le dirigeant, le responsable sécurité et les encadrants peuvent travailler sur le même document, chacun sur ses unités de travail, et les données restent dans l'espace de l'entreprise.</p>
     <p>Il s'adresse aux PME, commerces, ateliers, entreprises de logistique, du bâtiment et de services qui comptent de 11 à quelques centaines de salariés. Le service est en préparation : nous vérifions d'abord si les employeurs en ont besoin, et ne le construisons qu'ensuite.</p>
     <p>Le service aide à rédiger et tenir à jour le document ; l'évaluation des risques et les décisions de prévention restent sous la responsabilité de l'employeur. Il ne remplace ni la médecine du travail ni un intervenant en prévention.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Questions fréquentes</h2>
-    <h3>Quand faut-il mettre à jour le DUERP ?</h3>
-    <p>Au moins une fois par an dans les entreprises d'au moins 11 salariés, et à chaque changement important des conditions de travail.</p>
-    <h3>Combien de temps faut-il conserver le document unique ?</h3>
-    <p>Les versions successives du DUERP se conservent au moins quarante ans.</p>
-    <h3>Qu'est-ce que le PAPRIPACT ?</h3>
-    <p>Le programme annuel de prévention des risques professionnels et d'amélioration des conditions de travail, obligatoire à partir de 50 salariés ; en dessous, une liste des actions de prévention.</p>
-    <h3>Faut-il déposer le DUERP sur un portail ?</h3>
-    <p>Le dépôt dématérialisé n'est pas encore en place ; l'employeur conserve ses versions lui-même.</p>
-    <h3>Puis-je déjà l'utiliser ?</h3>
-    <p>Pas encore. Le service est en préparation et nous vérifions s'il est utile aux entreprises.</p>
+    <div class="stack"><h2>Questions fréquentes</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>Quand faut-il mettre à jour le DUERP ?</h3><p>Au moins une fois par an dans les entreprises d'au moins 11 salariés, et à chaque changement important des conditions de travail.</p></div>
+      <div class="split flip"><h3>Combien de temps faut-il conserver le document unique ?</h3><p>Les versions successives du DUERP se conservent au moins quarante ans.</p></div>
+      <div class="split flip"><h3>Qu'est-ce que le PAPRIPACT ?</h3><p>Le programme annuel de prévention des risques professionnels et d'amélioration des conditions de travail, obligatoire à partir de 50 salariés ; en dessous, une liste des actions de prévention.</p></div>
+      <div class="split flip"><h3>Faut-il déposer le DUERP sur un portail ?</h3><p>Le dépôt dématérialisé n'est pas encore en place ; l'employeur conserve ses versions lui-même.</p></div>
+      <div class="split flip"><h3>Puis-je déjà l'utiliser ?</h3><p>Pas encore. Le service est en préparation et nous vérifions s'il est utile aux entreprises.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Décrivez votre entreprise</h2>
-    <p><label>Nombre de salariés<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— choisissez —</option><option>11–19</option><option>20–49</option><option>50–249</option><option>250 et plus</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Commencer</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Décrivez votre entreprise</h2>
+    </div>
+    <div class="tile stack">
+      <label>Nombre de salariés<select data-ev-focus="form_start"><option value="">— choisissez —</option><option>11–19</option><option>20–49</option><option>50–249</option><option>250 et plus</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Commencer</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>DUERP à jour</b></p>
   <p><a href="privacy.html" data-ev="click_legal_privacy">Confidentialité</a></p>
-  <p class="muted">Aide à la rédaction et à la mise à jour du document unique. L'employeur reste responsable de l'évaluation des risques.</p>
+  <p>Aide à la rédaction et à la mise à jour du document unique. L'employeur reste responsable de l'évaluation des risques.</p>
 </div></footer>
 
 </body>
